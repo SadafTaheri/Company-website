@@ -1,0 +1,213 @@
+/* GENERAL STYLES */
+@import "reset.css";
+
+body,
+input,
+button {
+  font-family: tahoma;
+}
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* HEADER STYLES */
+#header {
+  width: 100%;
+  height: 700px;
+  background-color: #f25117;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+#header .logo {
+  float: left;
+}
+
+#header .logo img {
+  width: 90px;
+  color: black;
+  background-color: black;
+  padding: 5px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* NAVBAR STYLES */
+#nav {
+  float: right;
+  padding-top: 20px;
+}
+
+#nav ul li {
+  display: inline-block;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+#nav ul li a:hover {
+  border-bottom: 2px solid black;
+  transition: 0.25s;
+}
+#nav svg {
+  font-size: 22px;
+  margin-right: 8px;
+  vertical-align: -5px;
+}
+#nav .fa-circle-info {
+  font-size: 25px;
+}
+
+/* SECTION STYLES */
+#subscribe {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#subscribe .title {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+#subscribe .title:hover {
+  color: black;
+  transition: 0.36s;
+}
+
+#subscribe .subtitle {
+  font-size: 25px;
+  padding: 40px 0;
+  color: white;
+}
+
+.form .email {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+}
+.form .email:focus {
+  outline: none;
+}
+
+.form .submit-btn {
+  border: none;
+  padding: 15px 35px;
+  color: #fff;
+  background-color: black;
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 15%);
+}
+
+.form .submit-btn svg {
+  margin-right: 10px;
+  font-size: 16px;
+  /* vertical-align: -5px; */
+}
+.form .submit-btn:hover {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 45%);
+  cursor: pointer;
+}
+
+#subscribe .desc {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* SECTION STYLES */
+#section-2 {
+  margin-top: 250px;
+  text-align: center;
+}
+
+#section-2 .item {
+  width: 30%;
+  /* min-height: 100px; */
+  /* background-color: red; */
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 15px;
+  text-align: left;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 25%);
+}
+
+#section-2 .item:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 25%);
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.item .icon-item svg {
+  font-size: 50px;
+  color: #f25117;
+}
+
+#section-2 .title {
+  font-size: 23px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+#section-2 .desc {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+/* SECTION COSTOMERS STYLES */
+
+#costomers {
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/ny.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#costomers h2 {
+  font-size: 40px;
+  padding: 25px 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+#costomers h2:before {
+  content: ".: ";
+}
+
+#costomers h2:after {
+  content: " :.";
+}
+
+#costomers ul {
+  display: flex;
+  justify-content: space-around;
+}
+#costomers ul li {
+  display: inline-block;
+}
+
+#costomers ul li svg {
+  font-size: 80px;
+  margin-top: 30px;
+  /* color: #fff; */
+}
+
+#costomers ul li svg:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.25s;
+}
